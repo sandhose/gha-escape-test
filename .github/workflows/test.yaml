@@ -7,4 +7,4 @@ jobs:
     steps:
       - run: |
           echo "${{ join(fromJSON('["foo", "bar"]'), '
-          ')}"
+          ') }}"
